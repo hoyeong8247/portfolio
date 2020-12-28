@@ -1,46 +1,357 @@
-  <!DOCTYPE html>
- <html lang="ko">
-   <head>
-     <meta charset="utf-8">
-     <link rel="stylesheet" href="./portfolio.css">
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="./css/portfolio.css">
 
-     <title>포트폴리오</title>
 
-    </head>
-      <body>
+   <title>포트폴리오</title>
+
+  </head>
+    <body>
   <div class="back">
-    <h1>포트폴리오</h1>
+  <h1 class="toph1">포트폴리오</h1>
+  </div>
+
+
+  <nav class="list">
+    <div class="box atable"><a href="#content1">테이블요소</a></div>
+    <div class="box aform"><a href="#content2">폼요소</a></div>
+    <div class="box alist"><a href="#content3">리스트요소</a></div>
+  </nav>
+
+<div class="main">
+
+  <div class="name">구성요소</div>
+
+  <h2 class="top">테이블요소</h2>
+
+    <div class="bottom" id="content1">
+  <table class="table1">
+    <caption class="captionall">아동 사이즈</caption>
+
+      <colgroup>
+
+      </colgroup>
+      <thead class="thead1">
+      <tr>
+        <th colspan="2" class="text1 table1border">구분</th>
+        <th colspan="2" class="table1border">Small</th>
+        <th colspan="2" class="table1border">Medium</th>
+        <th colspan="2" class="table1border">Large</th>
+        <th class="table1border">X-Large</th>
+      </tr>
+      </thead>
+
+      <tbody class="tbody1">
+        <tr>
+          <td rowspan="3" class="text1 table1border">미국 남아<br>[Boyz 2-7]</td>
+          <td class="text1 table1border">사이즈</td>
+          <td class="table1border">2T</td>
+          <td class="table1border">3T</td>
+          <td class="table1border">4T</td>
+          <td class="table1border">4</td>
+          <td class="table1border">5</td>
+          <td class="table1border">6</td>
+          <td class="table1border">7</td>
+        </tr>
+
+        <tr>
+
+          <td class="text1 table1border">키</td>
+          <td class="table1border">84-91</td>
+          <td class="table1border">91-99</td>
+          <td class="table1border">91-99</td>
+          <td class="table1border">99-107</td>
+          <td class="table1border">107-114</td>
+          <td class="table1border">114-122</td>
+          <td class="table1border">122-130</td>
+        </tr>
+
+        <tr>
+          <td class="text1 table1border">몸무게</td>
+          <td class="table1border">13-15</td>
+          <td class="table1border">14-15</td>
+          <td class="table1border">13-15</td>
+          <td class="table1border">14-15</td>
+          <td class="table1border">19-21</td>
+          <td class="table1border">20-23</td>
+          <td class="table1border">23-25</td>
+        </tr>
+
+        <tr>
+          <td rowspan="3" class="text1 table1border">미국 여아<br>[Girls 2-6X]</td>
+          <td class="text1 table1border">사이즈</td>
+          <td class="table1border">2T</td>
+          <td class="table1border">3T</td>
+          <td class="table1border">4T</td>
+          <td class="table1border">4</td>
+          <td class="table1border">5</td>
+          <td class="table1border">6</td>
+          <td class="table1border">6X</td>
+        </tr>
+
+        <tr>
+          <td class="text1 table1border">키</td>
+          <td class="table1border">84-91</td>
+          <td class="table1border">91-99</td>
+          <td class="table1border">91-99</td>
+          <td class="table1border">99-107</td>
+          <td class="table1border">107-114</td>
+          <td class="table1border">114-122</td>
+          <td class="table1border">122-130</td>
+        </tr>
+
+        <tr>
+          <td class="text1 table1border">몸무게</td>
+          <td class="table1border">13-15</td>
+          <td class="table1border">14-15</td>
+          <td class="table1border">13-15</td>
+          <td class="table1border">14-15</td>
+          <td class="table1border">19-21</td>
+          <td class="table1border">20-23</td>
+          <td class="table1border">23-25</td>
+        </tr>
+      </tbody>
+  </table>
+
+  <table class="table2">
+    <caption class="captionall">환불 가능 금액 조회</caption>
+    <colgroup>
+      <col width="40%">
+      <col width="20%">
+      <col width="20%">
+      <col width="20%">
+
+    </colgroup>
+
+    <thead class="thead2">
+      <tr>
+        <th>구분</th>
+        <th>환불가능액</th>
+        <th>수수료</th>
+        <th>총 환불금액</th>
+      </tr>
+    </thead>
+    <tbody class="tbody2">
+      <tr>
+        <td>게임 보상금액</td>
+        <td class="cash">100,000원</td>
+        <td class="cash">1,000원</td>
+        <td class="cash">99,000원</td>
+      </tr>
+
+      <tr>
+        <td>월정액제 보상금액</td>
+        <td class="cash">10,000원</td>
+        <td class="cash">5,000원</td>
+        <td class="cash">5,000원</td>
+      </tr>
+
+      <tr>
+        <td>코인</td>
+        <td class="cash">9,000원</td>
+        <td class="cash">500원</td>
+        <td class="cash">8,500원</td>
+      </tr>
+
+    </tbody>
+    <tfoot class="table2tfoot">
+      <tr>
+        <td>총합계</td>
+        <td class="cash">119,000원</td>
+        <td class="cash">6,500원</td>
+        <td class="cash">112,500원</td>
+      </tr>
+    </tfoot>
+  </table>
+  </div>
+
+
+
+
+  <h2 class="top">폼요소</h2>
+  <div class="bottom" id="content2">
+      <div class="formname">회원가입</div>
+    <div class="formall">
+
+      <div>
+      <label for="id" class="formname">아이디</label><input type="text" id="id" class="inputtext">
+      <br>
+      <label for="password" class="formname">비밀번호</label><input type="password" id="password" class="inputtext">
+      <br>
+      <label for="birthday" class="formname">생년월일</label>
+      <br>
+      <select id="birthday">
+          <option value="년도">년도</option>
+      </select>
+      <select>
+          <option value="월">월</option>
+      </select>
+      <select>
+          <option value="일">일</option>
+      </select>
+      <br>
+      <div class="formname">성별</div>
+      <label for="man"></label><input type="radio" name="gender" id="man">남자
+      <label for="girl"></label><input type="radio" name="gender" id="girl">여자
+      <br>
+      <br>
+      <label for="email" class="formname">이메일</label><input type="text" id="email" placeholder="이메일 주소에'@'를 포함해주세요." class="inputtext">
+      <br>
+      <label for="phone" class="formname">휴대전화</label>
+      <br>
+
+      <input type="text" id="phone" placeholder="숫자만 입력해주세요." class="phonenumber"><input type="button" value="인증번호받기" class="greenbutton">
+      <br>
+      <label for="authenticayion"></label><input type="text" id="authenticayion" placeholder="인증번호를 입력해주세요." class="inputtext">
+      <br>
+
+      <div class="formname">취미</div>
+
+      <label class="hobbybox"><input type="checkbox" name="hobby" value="운동">운동</label>
+      <label class="hobbybox"><input type="checkbox" name="hobby" value="요리">요리</label>
+      <label class="hobbybox"><input type="checkbox" name="hobby" value="여행">여행</label>
+      <label class="hobbybox"><input type="checkbox" name="hobby" value="게임">게임</label>
+      <label class="hobbybox"><input type="checkbox" name="hobby" value="컴퓨터">컴퓨터</label>
+      <label class="hobbybox"><input type="checkbox" name="hobby" value="음악">음악</label>
+      <label class="hobbybox"><input type="checkbox" name="hobby" value="영화">영화</label>
+      <label class="hobbybox"><input type="checkbox" name="hobby" value="독서">독서</label>
+      <br>
+      <br>
+      <label for="membershipgreeting" class="formname">가입인사</label>
+      <textarea cols="50" rows="10" id="membershipgreeting"></textarea>
+      <br>
+      <input type="button" value="가입하기" class="greenbutton2">
+    </div>
+      </div>
+  </div>
+
+  <h2 class="top"> 리스트요소 </h2>
+  <div class="underline" id="content3">
+
+    <div class="listname">'프로젝트'사전 검색 결과</div>
+
+    <div class="list1">
+
+      <h1 class="bottomh1">프로젝트</h1>
+      <dl>
+      <dt>프로젝트<span class="subdt">영양학사전</span></dt>
+        <dd>연구나 새로운 사업의 개발을 위한 유기적이고 조직적인계획,
+        원자력 개발이나 우주개 등은 대형 프로젝트를 조직하여 이루어진다.
+        일반적으로는 특정한 목표, 계획을 위한 학습활동, 실행계획 등을 가리킨다. </dd>
+      </dl>
+
+      <dl>
+        <dt>프로젝트<span class="subdt">Basic 중학생을 위한 기술, 가정 용어사전</span></dt>
+
+        <dd>어떤 특정한 목적 달성을 위하여 실시되는 시스템 개발, 프로그램 설계, 연구 개발 계획
+        혹은 건설 공사 등과 같이 한 번에 그치는 성격을 갖는 단위 작업이나 사업. </dd>
+      </dl>
     </div>
 
 
 
-<nav class="list">
-  <div class="box atable"><a href="#content1">테이블요소</a></div>
-  <div class="box aform"><a href="#content2">폼요소</a></div>
-  <div class="box alist"><a href="#content3">리스트요소</a></div>
-</nav>
+    <div class="listname">실시간검색어</div>
+  <div class="list2">
 
+  <li class="li1"><a href="http://www.naver.com/" target="blank"><span class="listtext">1</span>입추</a></li>
+  <li class="li1"><a href="http://www.naver.com/" target="blank"><span class="listtext">2</span>런닝맨 유재석</a></li>
+  <li class="li1"><a href="http://www.naver.com/" target="blank"><span class="listtext">3</span>런닝맨</a></li>
+  <li class="li1"><a href="http://www.naver.com/" target="blank"><span class="listtext">4</span>소나기</a></li>
+  <li class="li1"><a href="http://www.naver.com/" target="blank"><span class="listtext">5</span>주간 날씨</a></li>
+  <li class="li1"><a href="http://www.naver.com/" target="blank"><span class="listtext">6</span>깔라만씨</a></li>
+  <li class="li1"><a href="http://www.naver.com/" target="blank"><span class="listtext">7</span>내 아이디는 강남미인</a></li>
+  <li class="li1"><a href="http://www.naver.com/" target="blank"><span class="listtext">8</span>차은우</a></li>
+  <li class="li1"><a href="http://www.naver.com/" target="blank"><span class="listtext">9</span>한국사능력검정시험</a></li>
+  <li class="li1"><a href="http://www.naver.com/" target="blank"><span class="listtext">10</span>맛있는 녀석들</a></li>
+  </div>
+    <div class="listname">쿠키 이용안내</div>
 
-<div class="sub">
-
-   <div class="name">구성요소</div>
-
-      <div class="top">테이블요소</div>
-      <div class="bottom" id="content1">콘텐츠영역</div>
-
-      <div class="top">폼요소</div>
-      <div class="bottom" id="content2">콘텐츠영역</div>
-
-      <div class="top"> 리스트요소 </div>
-      <div class="underline" id="content3">콘텐츠영역</div>
+  <div class="list3">
+    <ul>
+    <li><p class="list3text1"><span class="list3text2">웹툰 작품</span>은 쿠키를 사용하여 대여/구매 하실 수 있습니다.</p></li>
+    <li><p class="list3text3">쿠키 구매 시 지급되는 보너스 쿠키의 수량은 변경될 수 있으며,
+       <span class="list3text4">유효기간은 지급 후 90일</span>입니다.</p></li>
+    <li><span class="list3text3">구매 후 7일 이내, 사용하지 않은 쿠키 패키지는 <a href="http://www.naver.com/" target="blank" class="list3text5">구매내역</a>
+      에서 직접 구매취소할 수 있습니다.</span></li>
+    <li><span class="list3text3">일부 사용 후 잔여 쿠키에 대한 구매 취소는 고객센터를 통해 가능하며,
+        쿠키 구매 시 지급된 보너스 쿠키를 사용한 경우에 해당 분량을 제외하고 환불됩니다.</span></li>
+    <li><span class="list3text3">쿠키 구매 또는 사용 전 이용약관 동의가 필요합니다.</span></li>
+    <div class="list3text3"><a href="http://www.naver.com/" target="blank" class="list3text5">쿠키이용약관</a></div>
+    </ul>
     </div>
 
+
+    <div class="listname">뉴스</div>
+  <div class="list4">
+    <a href="http://www.naver.com/" target="blank"><img src="./image/thumbnail1.jpg" class="imagesize"></a>
+    <a href="http://www.naver.com/" target="blank"><div class="list4text1">[날씨] 내일도 35도 안팎 폭염·내륙 소나기···습도 높아 후텁지근</div></a>
+    <div class="list4text2">오늘은 입추 절기지만 가을은 아직 멀리있는 것 같습니다. 일부 내륙에는 소나기가 지났지만 소나기도 더위의 기세를 누그러뜨리진 못했는데요.
+      동해안을 제외 전국 대부분 지방에 폭염 특보가 이어지는 가운데 내일도 한낮에 서울과 대전 35도, 광주와 대구가 36도까지 오를 것으로 예상됩니다.
+      내일도 대기가 불안정해지면서 오후에 내륙에는 소나기가 지나는 곳이 있겠습니다.</div>
+
+    <a href="http://www.naver.com/" target="blank"><div class="list4text1">[펫카드] 강아지 중성화가 필요한 이유</div></a>
+    <div class="list4text2">(서울=뉴스1) 최서윤기자,방은영디자이너 = 강아지 중성화 수술을 놓고 찬반이 팽팽하게 엇갈린다. 많은 사람들은 사람들과 공존하려면 개체수 조절을 위해
+      필요하다고 주장한다. 그러나 어떤 사람들은 인위적인 수술은 안된다며 반대한다.</div>
+
+    <a href="http://www.naver.com/" target="blank"><img src="./image/thumbnail1.jpg" class="imagesize"></a>
+      <a href="http://www.naver.com/" target="blank"><div class="list4text1">다이어트에 좋은 여름 복숭아, 먹으면 안 되는 사람 있어</div></a>
+      <div class="list4text3">복숭아가 제철이다. 여름 복숭아는 다양한 건강 효과를 낸다. 복숭아에는 포도당 과당 수분이 풍부하고 유기산(산성을 띄는 물질로 식품에서 신맛을 냄)
+        이 0.5% 정도로 적게 들어 단맛이 강하다. 복숭아의 열량은 100g당 36kcal다. 복숭아 한 개에 약 100kcal 정도다. 포만감에 비해 열량이 적은 편이어서
+        다이어트를 하는 사람에게도 좋다. 비타민이 많아서 피로 해소에 도움이 된다.</div>
+
+  </div>
+
+    <div class="listname">웹툰</div>
+  <div class="list5">
+
+    <div class="webtoon1">
+      <a href="http://www.naver.com/" target="blank"><img src="./image/thumbnail2.jpg" class="webtoonimage"></a>
+      <div class="imagetext1"><a href="http://www.naver.com/" target="blank">하루 3컷</a></div>
+      <div class="imagetext2"><a href="http://www.naver.com/" target="blank">17화 편리하게 피곤하게</a></div>
+    </div>
+
+
+    <div class="webtoon2">
+      <a href="http://www.naver.com/" target="blank"><img src="./image/thumbnail2.jpg" class="webtoonimage"></a>
+      <div class="imagetext1"><div class="cuttoon">컷툰</div><a href="http://www.naver.com/" target="blank">유미의 세포들</a></div>
+      <div class="imagetext2"><a href="http://www.naver.com/" target="blank">326화 미래에서 온 텔레파시</a></div>
+    </div>
+
+    <div class="webtoon3">
+    <a href="http://www.naver.com/" target="blank"><img src="./image/thumbnail2.jpg" class="webtoonimage"></a>
+      <div class="imagetext1"><a href="http://www.naver.com/" target="blank">이말년씨리즈 2018</a></div>
+      <div class="imagetext2"><a href="http://www.naver.com/" target="blank">58화 공포의 떡볶이</a></div>
+    </div>
+
+    <div class="webtoon4">
+    <a href="http://www.naver.com/" target="blank"><img src="./image/thumbnail2.jpg" class="webtoonimage"></a>
+      <div class="imagetext1"><div class="smarttoon">스마트툰</div><a href="http://www.naver.com/" target="blank">덴마</a></div>
+      <div class="imagetext2"><a href="http://www.naver.com/" target="blank">195화 1.다이크(195)</a></div>
+    </div>
+
+    <div class="webtoon5">
+    <a href="http://www.naver.com/" target="blank"><img src="./image/thumbnail2.jpg" class="webtoonimage"></a>
+      <div class="imagetext1"><div class="cuttoon">컷툰</div><a href="http://www.naver.com/" target="blank">1인용 기분</a></div>
+      <div class="imagetext2"><a href="http://www.naver.com/" target="blank">20화 평가</a></div>
+    </div>
+
+    <div class="webtoon6">
+    <a href="http://www.naver.com/" target="blank"><img src="./image/thumbnail2.jpg" class="webtoonimage"></a>
+      <div class="imagetext1"><a href="http://www.naver.com/" target="blank">찬란하지 않아도 괜찮아</a></div>
+      <div class="imagetext2"><a href="http://www.naver.com/" target="blank">56화 숨길 수 없어요.</a></div>
+    </div>
+
+
+
+
+  </div>
+  </div>
+  </div>
     <div class="under">
-      <span class="n1">주소: 경기도 성남 분당구, E-MAIL: honggildong@naver.com</span><br>
-      <span class="n2">copyright ⓒ Hong Gil Dong. All Rights Reserved.</span>
+    <span class="n1">주소: 경기도 성남 분당구, E-MAIL: honggildong@naver.com</span><br>
+    <span class="n2">copyright ⓒ Hong Gil Dong. All Rights Reserved.</span>
     </div>
-
-
-
-    </body>
-  </html>
+  </body>
+</html>
